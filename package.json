@@ -1,0 +1,12 @@
+{
+  "name": "@crowdstrike/aidr-apigee",
+  "version": "0.0.0-development",
+  "private": true,
+  "scripts": {
+    "lint": "biome check aidr-guard"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "2.3.6"
+  }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd -- "$(dirname -- "$0")/.."
+
+curl -X POST http://localhost:8081/v1/emulator/reset

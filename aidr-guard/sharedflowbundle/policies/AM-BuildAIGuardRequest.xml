@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-BuildAIGuardRequest">
+  <DisplayName>AM-BuildAIGuardRequest</DisplayName>
+  <Properties/>
+  <Set>
+    <Headers>
+      <Header name="Authorization">{aiguard_auth_header}</Header>
+      <Header name="Content-Type">application/json</Header>
+    </Headers>
+    <Payload contentType="application/json">{aiguard_request_payload}</Payload>
+  </Set>
+  <AssignTo createNew="true" type="request">aiguard_request</AssignTo>
+</AssignMessage>

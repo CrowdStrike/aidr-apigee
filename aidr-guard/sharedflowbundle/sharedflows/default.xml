@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+  <Step>
+    <Name>EV-ExtractVertexContent</Name>
+    <Condition>request.content != null</Condition>
+  </Step>
+  <Step>
+    <Name>EV-ExtractVertexResponse</Name>
+    <Condition>response.content != null</Condition>
+  </Step>
+  <Step>
+    <Name>JS-TransformToAIGuardFormat</Name>
+  </Step>
+  <Step>
+    <Name>JS-BuildAIGuardRequest</Name>
+  </Step>
+  <Step>
+    <Name>AM-BuildAIGuardRequest</Name>
+  </Step>
+  <Step>
+    <Name>SC-CallAIGuard</Name>
+  </Step>
+  <Step>
+    <Name>EV-ExtractAIGuardResponse</Name>
+  </Step>
+  <Step>
+    <Name>JS-HandleAIGuardResult</Name>
+  </Step>
+</SharedFlow>

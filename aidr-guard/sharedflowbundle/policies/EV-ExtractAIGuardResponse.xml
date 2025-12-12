@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables continueOnError="false" enabled="true" name="EV-ExtractAIGuardResponse">
+  <DisplayName>EV-ExtractAIGuardResponse</DisplayName>
+  <Properties/>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <JSONPayload>
+    <Variable name="aiguard_status">
+      <JSONPath>$.status</JSONPath>
+    </Variable>
+
+    <Variable name="aiguard_blocked">
+      <JSONPath>$.result.blocked</JSONPath>
+      <DefaultValue>false</DefaultValue>
+    </Variable>
+    <Variable name="aiguard_transformed">
+      <JSONPath>$.result.transformed</JSONPath>
+      <DefaultValue>false</DefaultValue>
+    </Variable>
+    <Variable name="aiguard_output">
+      <JSONPath>$.result.guard_output</JSONPath>
+      <DefaultValue>{}</DefaultValue>
+    </Variable>
+  </JSONPayload>
+  <Source clearPayload="false">aiguard_response</Source>
+</ExtractVariables>

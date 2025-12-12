@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" name="JS-BuildAIGuardRequest" timeLimit="200">
+  <DisplayName>JS-BuildAIGuardRequest</DisplayName>
+  <Properties/>
+  <ResourceURL>jsc://JS-BuildAIGuardRequest.js</ResourceURL>
+</Javascript>
