@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" name="JS-HandleAIGuardResult" timeLimit="200">
+  <DisplayName>JS-HandleAIGuardResult</DisplayName>
+  <Properties/>
+  <ResourceURL>jsc://JS-HandleAIGuardResult.js</ResourceURL>
+</Javascript>
+

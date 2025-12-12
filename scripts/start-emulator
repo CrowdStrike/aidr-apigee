@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd -- "$(dirname -- "$0")/.."
+
+docker run -d -p 8081:8080 -p 8082:8998 gcr.io/apigee-release/hybrid/apigee-emulator:1.15.1
