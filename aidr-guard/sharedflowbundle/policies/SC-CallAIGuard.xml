@@ -5,6 +5,6 @@
   <Request clearPayload="false" variable="aiguard_request"/>
   <Response>aiguard_response</Response>
   <HTTPTargetConnection>
-    <URL>https://{aiguard_base_url}/v1/guard</URL>
+    <URL>https://{aiguard_base_url}/v1/guard_chat_completions</URL>
   </HTTPTargetConnection>
 </ServiceCallout>
