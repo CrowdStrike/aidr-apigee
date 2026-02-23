@@ -48,3 +48,9 @@ In your API proxy, create the following policies:
   <SharedFlowBundle>cs-aidr-guard</SharedFlowBundle>
 </FlowCallout>
 ```
+
+## Request format
+
+This shared flow expects API proxy requests to use the
+[Vertex AI `generateContent`](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/reference/rest/v1/projects.locations.endpoints/generateContent)
+request body format.
