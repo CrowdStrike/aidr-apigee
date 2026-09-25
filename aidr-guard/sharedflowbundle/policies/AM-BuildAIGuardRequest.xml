@@ -6,6 +6,7 @@
     <Headers>
       <Header name="Authorization">{aiguard_auth_header}</Header>
       <Header name="Content-Type">application/json</Header>
+      <Header name="User-Agent">aidr-apigee/1.0.0</Header>
     </Headers>
     <Payload contentType="application/json">{aiguard_request_payload}</Payload>
   </Set>
